@@ -1,0 +1,42 @@
+.main-header {
+    margin-inline: -1px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 3px 3px 0 #000000;
+    color: #ffffff;
+
+    
+}
+.header {
+    margin-inline: -1px;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 3px 3px 0 #000000;
+    color: #ffffff;
+}
+.header h2 {
+    margin: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.corte {
+    background-color: #4D3C37;
+    border: 1px solid #4D3C37;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #ffffff;
+}
+.corte img {
+    max-width: 100%;
+    height: auto;
+}

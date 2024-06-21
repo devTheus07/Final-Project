@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(../imagens/IMG-20240516-WA0035.jpg);
+}
+.conteudo {
+    text-shadow: 3px 3px 0 #ffffff;
+    color: #282828;
+    text-align: center;
+    font-family: "playwrite AU SA";
+    padding: 2px; 
+    margin-top: 5px;
+    font-size: 180%;
+}
+
+.nome {
+    font-family: "Osvald";
+    color: white;
+    font-size: 270%;
+    place-items: center;
+    display: grid;
+    text-shadow: 3px 3px 0 #ffffff;
+    color: #282828;
+    
+}
+
+.capacenter {
+    width: 25%;
+    float: right;
+    margin-top: -38.5%;
+    margin-right: 9.5%;
+    border-radius: 12px;
+    border: solid #4D3C37 20px;
+    display: inline-flex;
+}
+.imgcapa {
+    width: 50%;
+    float: left;
+    margin-left: 0;
+    border-radius: 12px;
+    border: solid #4D3C37 20px;
+}
+
+td {
+    margin: 20%;
+}
+
+

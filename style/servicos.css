@@ -1,0 +1,39 @@
+.header {
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-inline: -5px;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000000;
+    color: #ffffff;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #313734;
+}
+.servicos {
+    background-color: #4D3C37;
+    border: 10px solid #313734;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.servicos img {
+    max-width: 100%;
+    height: auto;
+}
+a li:hover{
+    background-color: #CE814D;
+    transition: 0.5s;
+}
+b {
+    position: relative;
+    display: flex;
+}
